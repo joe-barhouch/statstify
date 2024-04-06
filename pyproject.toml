@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "statsify"
+version = "0.1.0"
+description = ""
+authors = ["Joe Barhouch <joe@engineai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <=3.13"
+langchain = "^0.1.14"
+langchain-community = "^0.0.31"
+crewai = {version = "^0.22.5", extras = ["tools"]}
+tavily-python = "^0.3.3"
+openai = "^1.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

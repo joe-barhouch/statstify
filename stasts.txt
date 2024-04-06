@@ -1,0 +1,1 @@
+The statistic to search for is the average temperatures in New York City in July for the past 10 years.
